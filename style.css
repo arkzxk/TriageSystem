@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patient-input-grid {
+  display: grid;
+  grid-template-columns: 260px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.patients-grid {
+  display: grid;
+  grid-template-columns: 50px 200px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.table-lable {
+  display: grid;
+  grid-template-columns: 50px 200px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: -40px;
+  margin-bottom: -10px;
+  align-items: center;
+  text-align: center;
+}
+
+.condition-input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-patient-button {
+  background-color: #035a8f;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-patient-button {
+  background-color: #c2322f;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

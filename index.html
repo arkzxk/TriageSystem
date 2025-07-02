@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triage Severity & Priority Test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Patients List</h1>
+
+    <div class="patient-input-grid">
+      <input placeholder="Condition" class="js-condition-input condition-input">
+      <button onclick="addPatient();" class="add-patient-button">Add</button><br>
+    </div>
+
+    <div class="table-lable">
+      <h3>Priority</h3>
+      <h3>Condition</h3>
+    </div>
+
+    <div class="js-patient-list patients-grid"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
